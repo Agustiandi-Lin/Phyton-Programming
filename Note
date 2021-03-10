@@ -1,0 +1,42 @@
+# basic phyton note
+
+# display something
+print ('hello world') # add ' for string
+print (3) # for int just type it
+
+# to know whether its string or int
+print(type ('hi'))
+print(type(3))
+
+# conversion
+# int (x) --> x (string) int
+# str (x) --> x (int) str
+# float (x) --> x become float ; ex. float = 3.2
+
+# insert variable
+x = 'yo' # string var
+y = 3 # int var
+print (x)
+print (y)
+
+# mathematical operation (int)
+# + = plus
+# - = minus
+# / = division (// = round down in division result)
+# * = multiplication
+# ** = exponentiation
+# % = modulus (whats left after the division)
+
+# mathematical operation (string)
+# + = concatenation --> joining strings by linking them end to end
+# * = multiplication --> must combine with int, ex. 2*"string"
+
+# mathematical rule (PEMDAS) tier list
+# 1. Parentheses "()"
+# 2. Exponentiation "**"
+# 3. Multiplication_Division "*" "/"
+# 4. Plus_Minus "+" "-"
+
+# ask for input
+z = input("ask something \n") # \n = new line
+print('thing that you type before is '+str(z))
